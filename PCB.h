@@ -10,8 +10,14 @@ typedef struct PCB {
     int totalTime; 
     int timeLeft;
     int priority;
+    mm  mm;
 } PCB;
-
+typedef struct mm 
+{
+    int * code;
+    int * data;
+    int * pagTable;
+}mm;
 /*----------------------------------------------------------------- 
  *   Crear PCB
  *----------------------------------------------------------------*/
